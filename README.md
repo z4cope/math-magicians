@@ -26,9 +26,6 @@
 
 > "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
-- Make simple calculations.
-- Read a random math-related quote.
-
 ## 🛠 Built With <a name="built-with"></a>
 
 - Reactjs
@@ -53,10 +50,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Develop webapp around an API**
-- **Conduct test to ensure all edge cases are covered**
-- **Create web page using given wireframe**
-- **Users can filter amount of movies displayed**
+- **Read a random math-related quote.**
+- **Make simple calculations.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
