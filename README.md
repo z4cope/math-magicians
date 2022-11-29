@@ -22,7 +22,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 The Meal <a name="about-project"></a>
+# 📖 Math magicians <a name="about-project"></a>
 
 > "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
 
