@@ -1,0 +1,54 @@
+ul {
+  list-style: none;
+}
+
+.calc-wrapper {
+  width: 25rem;
+  height: 25rem;
+}
+
+.calculations {
+  height: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #848694;
+  color: #fff;
+}
+
+.keypad {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.keygrid {
+  flex: 1 1 1rem;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.keygrid li {
+  border: 1px solid #84869470;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: #e0e0e0;
+}
+
+.keygrid li:last-child {
+  background-color: #f5913e;
+}
+
+.keygrid li:hover {
+  background-color: #c05600;
+  color: #fff;
+}
+
+.zero {
+  grid-column: span 2;
+}
