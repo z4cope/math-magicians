@@ -24,7 +24,7 @@ ul {
 }
 
 .keygrid {
-  flex: 1 1 1rem;
+  flex: 1;
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
