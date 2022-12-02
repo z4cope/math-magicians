@@ -30,7 +30,7 @@ ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.keygrid li {
+.keygrid button {
   border: 1px solid #84869470;
   display: flex;
   justify-content: center;
@@ -40,11 +40,11 @@ ul {
   background-color: #e0e0e0;
 }
 
-.keygrid li:last-child {
+.keygrid button:last-child {
   background-color: #f5913e;
 }
 
-.keygrid li:hover {
+.keygrid button:hover {
   background-color: #c05600;
   color: #fff;
 }
