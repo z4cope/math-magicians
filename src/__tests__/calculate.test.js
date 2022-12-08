@@ -34,9 +34,9 @@ describe("Testing calculations methods", () => {
   const output = calculate({ total: 20, next: 5, operation: "-" }, "=");
   test("subtraction", () => {
     expect(output.total).toBe("15");
-  })
-
+  });
 });
+
 //Component test
 describe("Testing component", () => {
   it("Renders correctly", () => {
