@@ -1,0 +1,27 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-list li:nth-child(2) {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  padding: 0 1rem;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.nav-list li a:hover {
+  background-color: rgb(199, 199, 199);
+}
