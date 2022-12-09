@@ -1,8 +1,8 @@
-import { Routes, Route } from "react-router-dom";
-import Home from "./routes/home/Home";
-import CalculatorPage from "./routes/calculator/CalculatorPage";
-import Quote from "./routes/quote/Quote";
-import Navbar from "./components/navbar/Navbar";
+import { Routes, Route } from 'react-router-dom';
+import Home from './routes/home/Home';
+import CalculatorPage from './routes/calculator/CalculatorPage';
+import Quote from './routes/quote/Quote';
+import Navbar from './components/navbar/Navbar';
 
 const App = () => (
   <>
